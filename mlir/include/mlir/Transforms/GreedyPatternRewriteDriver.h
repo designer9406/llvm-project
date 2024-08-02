@@ -52,7 +52,7 @@ public:
   /// disable this iteration limit.
   ///
   /// Note: Only applicable when simplifying entire regions.
-  int64_t maxIterations = 10;
+  int64_t maxIterations = 50;
 
   /// This specifies the maximum number of rewrites within an iteration. Use
   /// `kNoLimit` to disable this limit.
